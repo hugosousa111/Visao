@@ -1,0 +1,5 @@
+SEGMENTAÇÃO DE OBJETOS
+* separar objetos
+* 9.1 SEGMENTAÇÃO POR BINARIZAÇÃO
+    * limiar
+    * o que interessa é branco

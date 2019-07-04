@@ -1,0 +1,55 @@
+OPERAÇÕES MORFOLÓGICAS
+* imagens binárias
+* Leitura de placa de veículos
+* 8.1 ELEMENTO ESTRUTURANTE
+    * retangular, elipse e cruz
+    * elipse para elementos mais arredondados
+    * retangular para quando tiver mais retas
+* 8.2 EROSÃO E DILATAÇÃO
+    * Operação de erosão
+        * retângulo
+        * corrosão das arestas
+        * encolhida
+        * faz tipo uma comparação pixel a pixel do elemento com a imagem
+        * tratar ruídos
+    * Operação de dilatação
+        * oposto
+        * cruz
+        * preenche na placa de carro
+* 8.3 ABERTURA E FECHAMENTO
+    * Operação de abertura
+        * 1 erosão e 1 dilatação
+        * tratar ruídos
+    * Operação de fechamento
+        * 1 dilatação e 1 erosão
+    * Abertura e fechamento em tons de cinza
+        * Abertura suprimi partes brilhantes
+        * Fechamento suprimi partes escuras
+        * Usado pra uniformizar a iluminação
+* 8.4 GRADIENTE MORFOLÓGICO
+    * dilatação - erosão
+    * borda
+* 8.5 TOP HAT
+    * aberta - original
+    * realçar obj brilhantes em fundos escuros
+    * estruturantes menores, suprimem grandes regiões na imagem
+    * Black Hat
+	* original - fechada
+* 8.6 TRATAMENTO DE RUÍDO
+    * exemplo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
